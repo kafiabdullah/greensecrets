@@ -124,4 +124,42 @@ header {
 }
 
 /* Slider END */
+/* Enjoy section start */
+.enjoy {
+  background-color: aliceblue;
+  padding-top: 5%;
+  padding-bottom: 3%;
+}
+.enjoy-header {
+  text-align: center;
+  padding-bottom: 40px;
+}
+.enjoy-media-content {
+  display: flex;
+  flex-wrap: wrap;
+}
+.enjoy-videos {
+  box-sizing: border-box;
+  padding-right: 20px;
+  min-height: 400px;
+}
+.enjoy-shop {
+  min-height: 400px;
+}
+.enjoy-shop .card {
+  text-align: center;
+  border-radius: 15px;
+  padding: 30px;
+  min-height: 400px;
+}
+.videos {
+  width: 100%;
+  border-radius: 15px;
+  min-height: 400px;
+  width: 100%;
+}
+.enjoy-card {
+  margin: 0 auto;
+}
+/* Enjoy section End */
 /* Main Section END */
