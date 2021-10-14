@@ -1,0 +1,127 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+/* header section start here */
+header {
+}
+.header-top {
+  background-color: rgb(255, 255, 255);
+  margin: 20px 0px;
+}
+.header-top-info {
+  display: flex;
+  flex-wrap: wrap;
+}
+.header-top .logo {
+}
+.header-top .logo img {
+  width: 220px;
+}
+.search-bar {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.search-input {
+  padding: 2% 3%;
+  border: 1px solid gray;
+  border-radius: inherit;
+  font-weight: bolder;
+}
+.search-btn {
+  background-color: rgb(212, 214, 217);
+  border-radius: inherit;
+}
+.header-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header-icon ul {
+  margin: 0px auto;
+}
+.header-icon li {
+  list-style: none;
+  display: inline-block;
+}
+.header-icon li a {
+  text-decoration: none;
+  color: rgb(113, 113, 113);
+  font-size: 1.5rem;
+  padding: 0px 8px;
+}
+
+/* navbar */
+.header-nav {
+  background-color: #59a460;
+}
+.nav-content ul {
+  margin: 0 auto;
+}
+.nav-content ul li a {
+  font-size: 1.2rem;
+  color: white !important;
+  font-weight: 400;
+}
+.dp-color {
+  color: black !important;
+}
+/* navbar */
+
+/* header section END here */
+/* Main Section Start  */
+.slider-images img {
+  opacity: 0.5;
+}
+/* Slider START */
+.slider {
+  background-image: url(../images/image_2021_08_02T12_46_45_717Z.png);
+  min-height: 600px;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.inner_items {
+  min-height: 600px;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  justify-content: first baseline;
+}
+.slider_text {
+  margin-left: 10%;
+}
+.slider_text h1 {
+  font-size: 40px;
+  color: #59a460;
+  font-family: "Butler", Sans-serif;
+  font-size: bold;
+}
+.slider-btn {
+  font-size: 1.2rem;
+  padding: 10px 40px;
+  font-weight: bold;
+  border-radius: 25px;
+  background-color: #3b8942;
+  border: none;
+  margin-top: 5%;
+}
+.slider-btn:hover {
+  background-color: black;
+  color: white;
+}
+.arrow-color {
+  background-color: #59a460;
+  color: white;
+  border-radius: 20px;
+  height: 50px;
+  width: 50px;
+}
+.arrow-color:hover {
+  background-color: black;
+}
+
+/* Slider END */
+/* Main Section END */
