@@ -3,6 +3,8 @@
   padding: 0px;
   box-sizing: border-box;
 }
+body {
+}
 h1,
 h2 {
   font-family: Butler, sans-serif;
@@ -412,6 +414,8 @@ header {
   color: rgb(89, 164, 96);
 }
 .shopping-section {
+  font-family: Butler, sans-serif;
+  padding: 4% 0%;
 }
 .shopping-content {
   display: flex;
@@ -420,6 +424,98 @@ header {
   font-size: 2rem;
   padding: 0% 5%;
   color: rgb(89, 164, 96);
+  margin-top: 2%;
 }
-.shopping-info {
+.shopping-info h5 {
+  font-weight: bold;
+}
+footer {
+  background-color: rgb(48, 48, 48);
+  color: white;
+  padding: 3% 0%;
+}
+.contact-section {
+}
+.contact-section a {
+  text-decoration: none;
+  color: white;
+}
+.contact-section img {
+  width: 100%;
+}
+.contact-section .phone,
+.email {
+  color: green;
+  text-align: center;
+  margin-right: 3%;
+}
+.contact-section ul {
+  list-style: none;
+  display: flex;
+}
+.contact-section ul li {
+  margin: 26px 6px;
+}
+.contact-section ul li a {
+  font-size: 1.2rem;
+  border-radius: 20px;
+  background: green;
+  padding: 5px 20px;
+}
+.social-icon {
+  word-spacing: 8px;
+}
+.social-icon a {
+  margin: 0px auto;
+}
+.fb {
+  background: rgb(58, 85, 141);
+  color: white;
+  padding: 10px 15px;
+  border-radius: 50%;
+}
+.tw {
+  background-color: rgb(31, 149, 222);
+  padding: 10px 15px;
+  border-radius: 50%;
+}
+.link {
+  background-color: rgb(5, 112, 167);
+  padding: 10px 15px;
+  border-radius: 50%;
+}
+.ins {
+  background-color: gray;
+  padding: 10px 15px;
+  border-radius: 50%;
+}
+.product-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.product-section a {
+  text-decoration: none;
+  color: white;
+  line-height: 50px;
+}
+.quic-section {
+  display: flex;
+  flex-direction: column;
+}
+.quic-section a {
+  text-decoration: none;
+  color: white;
+  line-height: 50px;
+}
+.quic-section img {
+  background-color: white;
+}
+/* copyright-section */
+.copyright-section {
+  background-color: #59a460;
+}
+.copyright {
+  color: white;
+  margin-top: 2%;
 }
