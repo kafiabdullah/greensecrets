@@ -119,6 +119,8 @@ header {
   height: 50px;
   width: 50px;
 }
+.span-btn {
+}
 .arrow-color:hover {
   background-color: black;
 }
@@ -137,6 +139,7 @@ header {
 .enjoy-media-content {
   display: flex;
   flex-wrap: wrap;
+  padding: 0px 30px;
 }
 .enjoy-videos {
   box-sizing: border-box;
@@ -162,4 +165,74 @@ header {
   margin: 0 auto;
 }
 /* Enjoy section End */
+/* pillow section START */
+.pillow {
+  background-image: url(../images/download.png);
+  padding: 50px 0px;
+}
+.pillow-header {
+  text-align: center;
+  padding: 30px 0px;
+}
+.pillow p {
+  color: #3b8942;
+  margin: 0 auto;
+}
+.pillow-card {
+  position: relative;
+  text-align: center;
+  margin-bottom: 8%;
+}
+.pillow-card:hover{
+  box-sizing: border-box;
+  box-shadow: 0px 5px 10px grey;
+  display: block;
+}
+.pillow-card .card {
+  position: relative;
+}
+
+.pillow-card .card-btn {
+  position: absolute;
+  background: white;
+  top: 30%;
+  transform: translateY(-50%);
+  right: 5%;
+  border-radius: 20px;
+  display: none;
+}
+.pillow-card .card a img {
+  text-decoration: none;
+  margin: 0 auto;
+}
+.pillow-card .card a {
+  text-decoration: none;
+  color: black;
+  font-weight: normal;
+}
+.pillow-card .card a:hover {
+  color: #59a460;
+}
+.card-btn {
+}
+.card-btn ul {
+  list-style: none;
+  padding: 10px 15px;
+}
+.card-btn li {
+}
+.card-btn a {
+  font-size: 20px;
+  color: #59a460 !important;
+}
+
+/* pillow section END */
+
+/* project section start */
+.project-section{}
+.project-section img{
+  background-color: #ABB9AE;
+  margin: 0 auto;
+}
+/* project section END */
 /* Main Section END */
