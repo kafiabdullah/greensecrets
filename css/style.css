@@ -62,9 +62,13 @@ header {
   font-size: 1.5rem;
   padding: 0px 8px;
 }
+.nav-color{
+  background-color: #59a460;
+}
 .header-nav {
   background-color: rgb(89, 164, 96);
   font-family: Rubik, sans-serif;
+  top: 50;
 }
 .nav-content ul {
   margin: 0px auto;
@@ -514,8 +518,28 @@ footer {
 /* copyright-section */
 .copyright-section {
   background-color: #59a460;
+  padding: 10px 0px;
 }
 .copyright {
   color: white;
-  margin-top: 2%;
+  text-align: center;
+}
+.copyright p {
+  margin: 0 auto;
+}
+/* header-alert-section */
+.header-alert-section {
+  background-color: #303030;
+  text-align: center;
+  color: white;
+  padding: 10px 0px;
+}
+.header-alert {
+}
+.header-alert a {
+  text-decoration: none;
+  color: white;
+}
+.header-alert p {
+  margin: 0 auto;
 }
