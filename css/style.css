@@ -3,8 +3,7 @@
   padding: 0px;
   box-sizing: border-box;
 }
-body {
-}
+
 .search-input::placeholder {
   color: rgb(212, 214, 217);
   opacity: 1;
@@ -26,8 +25,7 @@ h2 {
   display: flex;
   flex-wrap: wrap;
 }
-.header-top .logo {
-}
+
 .header-top .logo img {
   width: 220px;
 }
@@ -89,8 +87,7 @@ h2 {
 .slider-images img {
   opacity: 0.5;
 }
-.slider {
-}
+
 .slider-bg-img {
   background-image: url("../images/image_2021_08_02T12_46_45_717Z.png");
   min-height: 600px;
@@ -137,8 +134,7 @@ h2 {
   background-color: white;
   color: black;
 }
-.span-btn {
-}
+
 .enjoy {
   background-color: rgb(204, 224, 206);
   padding-top: 5%;
@@ -160,8 +156,7 @@ h2 {
   padding-right: 20px;
   min-height: 400px;
 }
-.enjoy-shop {
-}
+
 .enjoy-shop .card {
   text-align: center;
   border-radius: 15px;
@@ -226,14 +221,12 @@ h2 {
 .pillow-card .card a:hover {
   color: rgb(89, 164, 96);
 }
-.card-btn {
-}
+
 .card-btn ul {
   list-style: none;
   padding: 10px 15px;
 }
-.card-btn li {
-}
+
 .card-btn a {
   font-size: 20px;
   color: rgb(89, 164, 96) !important;
@@ -262,8 +255,7 @@ h2 {
 .project-text {
   font-family: Poppins, sans-serif;
 }
-.bed-section {
-}
+
 .bed-section .card img {
   position: relative;
   height: 400px;
@@ -363,8 +355,7 @@ h2 {
   font-weight: bold;
   letter-spacing: 3px;
 }
-.eucalyptus-slider {
-}
+
 .slider_pic {
   display: flex;
   justify-content: center;
@@ -372,8 +363,7 @@ h2 {
 .banner-arrow {
   color: black;
 }
-.banner_items {
-}
+
 .banner-arrow {
   font-size: 1.2rem;
   color: black;
@@ -428,8 +418,7 @@ h2 {
   justify-content: center;
   align-items: center;
 }
-.contact-section {
-}
+
 .contact-icon {
   display: flex;
   justify-content: center;
@@ -459,8 +448,7 @@ h2 {
   color: white;
   margin-bottom: 2%;
 }
-.contact-form p {
-}
+
 .contact-form p a {
   text-decoration: none;
   color: rgb(89, 164, 96);
@@ -487,8 +475,7 @@ footer {
   padding: 3% 0%;
   font-family: Rubik, sans-serif;
 }
-.contact-section {
-}
+
 .contact-section a {
   text-decoration: none;
   color: white;
@@ -580,8 +567,7 @@ footer {
   color: white;
   padding: 10px 0px;
 }
-.header-alert {
-}
+
 .header-alert a {
   text-decoration: none;
   color: white;
