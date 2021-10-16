@@ -1,41 +1,105 @@
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (min-width: 600px) {
+/*Extra small devices (portrait phones, less than 576px)*/
+
+@media (max-width: 320px) {
   .header-top .logo img {
     width: 100%;
   }
-  .search-bar {
-    display: none;
-  }
-
+  .search-bar,
   .header-icon {
     display: none;
   }
-  .slider {
-    background-image: url(../images/image_2021_08_02T12_46_45_717Z.png);
-    min-height: 600px;
-    width: 100%;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-}
-
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
-}
-
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (max-width: 768px) {
-  .header-top .logo {
+  .about-card {
+    flex-direction: column;
   }
+  .about-card-img {
+    margin-bottom: 5%;
+  }
+  .enjoy-shop .slider-btn {
+    padding: 5% 10%;
+  }
+  .project-section .project-img {
+    margin-bottom: 5%;
+  }
+  footer {
+    text-align: center;
+  }
+}
+
+@media (min-width: 321px) and (max-width: 412px) {
   .header-top .logo img {
     width: 100%;
   }
+  footer {
+    text-align: center;
+  }
+  .about-card-img {
+    margin-bottom: 5%;
+  }
+  .about-card {
+    flex-direction: column;
+  }
+  .search-bar,
+  .header-icon {
+    display: none;
+  }
+  .slider-btn {
+  }
+  .project-section .project-img {
+    margin-bottom: 5%;
+  }
 }
 
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
+@media (min-width: 413px) and (max-width: 575px) {
+  .header-top .logo img {
+    width: 100%;
+  }
+  footer {
+    text-align: center;
+  }
+  .about-card-img {
+    margin-bottom: 5%;
+  }
+  .about-card {
+    flex-direction: column;
+  }
+  .search-bar,
+  .header-icon {
+    display: none;
+  }
+  .project-section .project-img {
+    margin-bottom: 5%;
+  }
 }
 
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
+/*Medium devices (tablets, 768px and up)*/
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .header-top {
+    background-color: rgb(255, 255, 255);
+    margin: 20px 0px;
+  }
+  .header-top-info {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .header-top .logo {
+    width: 100%;
+  }
+
+  .search-bar {
+    display: none;
+  }
+}
+
+/*Large devices (desktops, 992px and up)*/
+
+@media (min-width: 992px) and (max-width: 1134px) {
+}
+
+@media (min-width: 1135px) and (max-width: 1199.98px) {
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+
+@media (min-width: 1200px) and (max-width: 1475px) {
 }

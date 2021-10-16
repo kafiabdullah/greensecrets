@@ -14,8 +14,7 @@ h2 {
   font-family: Butler;
   src: url("../font/Butler_Regular.otf");
 }
-header {
-}
+/* header top section */
 .header-top {
   background-color: rgb(255, 255, 255);
   margin: 20px 0px;
@@ -62,7 +61,7 @@ header {
   font-size: 1.5rem;
   padding: 0px 8px;
 }
-.nav-color{
+.nav-color {
   background-color: #59a460;
 }
 .header-nav {
@@ -85,6 +84,8 @@ header {
   opacity: 0.5;
 }
 .slider {
+}
+.slider-bg-img {
   background-image: url("../images/image_2021_08_02T12_46_45_717Z.png");
   min-height: 600px;
   width: 100%;
@@ -107,7 +108,7 @@ header {
 }
 .slider-btn {
   font-size: 1.2rem;
-  padding: 10px 40px;
+  padding: 1% 5%;
   font-weight: 400;
   border-radius: 25px;
   background-color: rgb(59, 137, 66);
@@ -232,7 +233,7 @@ header {
   color: rgb(89, 164, 96) !important;
 }
 .project-section {
-  width: 95%;
+  
   margin: 0px auto;
   padding: 30px 0px;
 }
@@ -543,3 +544,14 @@ footer {
 .header-alert p {
   margin: 0 auto;
 }
+.shop-btn{
+    background-color: #59A460;
+    border-radius: 25px;
+    padding: 3% 5%;
+}
+.shop-btn:hover{
+  background-color: black;
+  color: white;
+  border:none;
+}
+.project-img{}
