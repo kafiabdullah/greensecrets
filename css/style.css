@@ -286,26 +286,49 @@ h2 {
 }
 .blog-section {
   background-image: url("../images/download.png");
+  width: 90%;
+  margin: 0px auto;
+}
+.blog-section h2 {
+  font-size: 28px;
+  font-family: Butler, sans-serif;
+}
+.blog-section .card h3 {
+  font-size: 15px;
+  font-family: Poppins, sans-serif;
+  color: rgb(51, 51, 51);
+  font-weight: bold;
+}
+.blog-section .card p {
+  font-size: 14px;
+  font-family: Poppins, sans-serif;
+  color: rgb(51, 51, 51);
+  font-weight: 400;
 }
 .blog-section .card {
   height: 500px;
   font-family: Poppins, sans-serif;
 }
+.blog-section .card {
+  box-shadow: #b5b5b5 0px 0px 10px;
+}
 .blog-section .card:hover {
   box-sizing: border-box;
-  box-shadow: gray 0px 5px 5px;
+  box-shadow: #b5b5b5 0px 0px 20px;
 }
 .blog-section .card a {
   text-decoration: none;
-  color: black;
 }
-.blog-section .card a:hover {
+.blog-section .card a:hover,
+.blog-section .card h3:hover {
   color: rgb(59, 137, 66);
 }
 .blog-section .pillow-header p {
   color: rgb(59, 137, 66);
-  margin: 0px 10%;
-  font-weight: bold;
+  font-weight: 400;
+  letter-spacing: 3px;
+  font-size: 18px;
+  margin-bottom: 2%;
 }
 .blog-span {
   font-size: 30px;
@@ -316,6 +339,12 @@ h2 {
   background-image: url("../images/404.png");
   background-repeat: no-repeat;
   background-size: cover;
+}
+.packaging-section h2 {
+  font-size: 27px;
+  font-family: Butler, sans-serif;
+  color: #000000;
+  font-weight: 600;
 }
 .packaging-section .card {
   border: none;
@@ -456,6 +485,7 @@ footer {
   background-color: rgb(48, 48, 48);
   color: white;
   padding: 3% 0%;
+  font-family: Rubik, sans-serif;
 }
 .contact-section {
 }
